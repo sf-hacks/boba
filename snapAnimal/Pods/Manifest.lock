@@ -1,0 +1,30 @@
+PODS:
+  - PINCache (2.3)
+  - PINOperation (1.1.1)
+  - SnapSDK (1.2.0):
+    - SnapSDK/SCSDKBitmojiKit (= 1.2.0)
+    - SnapSDK/SCSDKCreativeKit (= 1.2.0)
+    - SnapSDK/SCSDKLoginKit (= 1.2.0)
+  - SnapSDK/SCSDKBitmojiKit (1.2.0):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.1)
+  - SnapSDK/SCSDKCreativeKit (1.2.0)
+  - SnapSDK/SCSDKLoginKit (1.2.0)
+
+DEPENDENCIES:
+  - SnapSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PINCache
+    - PINOperation
+    - SnapSDK
+
+SPEC CHECKSUMS:
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  SnapSDK: ab99c79e619067da4ed60c98ea5a04a288b83dc0
+
+PODFILE CHECKSUM: 764928e8b4db76592331bd621fe8de54e3d9c253
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_snapAnimal {
+  umbrella header "Pods-snapAnimal-umbrella.h"
+
+  export *
+  module * { export * }
+}

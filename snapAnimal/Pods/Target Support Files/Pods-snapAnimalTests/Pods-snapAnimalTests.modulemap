@@ -1,0 +1,6 @@
+framework module Pods_snapAnimalTests {
+  umbrella header "Pods-snapAnimalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
