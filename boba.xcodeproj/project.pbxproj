@@ -14,6 +14,11 @@
 		1306B77B222BA40700CB5579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1306B779222BA40700CB5579 /* LaunchScreen.storyboard */; };
 		1306B786222BA40700CB5579 /* bobaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306B785222BA40700CB5579 /* bobaTests.swift */; };
 		1306B791222BA40700CB5579 /* bobaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306B790222BA40700CB5579 /* bobaUITests.swift */; };
+		267A29C3222BBA0600E0A21D /* YelpClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A29C2222BBA0600E0A21D /* YelpClientHelper.swift */; };
+		267A29C6222BBA9300E0A21D /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A29C5222BBA9300E0A21D /* Search.swift */; };
+		91B819FE1BF20AE10BAC5643 /* Pods_bobaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922F03EC151983B14EA73D70 /* Pods_bobaTests.framework */; };
+		A856E1C80D167ACBF57E527B /* Pods_bobaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A39EB7D04AD40A41CC5FC00 /* Pods_bobaUITests.framework */; };
+		AB5554A24E63457D87C24BAF /* Pods_boba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4006AC00386A482177F27675 /* Pods_boba.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,17 @@
 		1306B78C222BA40700CB5579 /* bobaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bobaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1306B790222BA40700CB5579 /* bobaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobaUITests.swift; sourceTree = "<group>"; };
 		1306B792222BA40700CB5579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A39EB7D04AD40A41CC5FC00 /* Pods_bobaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bobaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267A29C2222BBA0600E0A21D /* YelpClientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClientHelper.swift; sourceTree = "<group>"; };
+		267A29C5222BBA9300E0A21D /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		4006AC00386A482177F27675 /* Pods_boba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDB7E2E286871B1DD4C8963 /* Pods-boba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boba.release.xcconfig"; path = "Target Support Files/Pods-boba/Pods-boba.release.xcconfig"; sourceTree = "<group>"; };
+		5DFEAE1620D46FDEF607EE63 /* Pods-bobaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobaTests.release.xcconfig"; path = "Target Support Files/Pods-bobaTests/Pods-bobaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF83AAF93C8C88DBFF137A3 /* Pods-bobaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobaUITests.debug.xcconfig"; path = "Target Support Files/Pods-bobaUITests/Pods-bobaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		922F03EC151983B14EA73D70 /* Pods_bobaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bobaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC113A57B8DA4CC86A2A5C66 /* Pods-bobaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobaUITests.release.xcconfig"; path = "Target Support Files/Pods-bobaUITests/Pods-bobaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8D8C8DD323E0B047BAD5E08 /* Pods-boba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boba.debug.xcconfig"; path = "Target Support Files/Pods-boba/Pods-boba.debug.xcconfig"; sourceTree = "<group>"; };
+		F45078ABE7D80D25F4311101 /* Pods-bobaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobaTests.debug.xcconfig"; path = "Target Support Files/Pods-bobaTests/Pods-bobaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5554A24E63457D87C24BAF /* Pods_boba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B819FE1BF20AE10BAC5643 /* Pods_bobaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A856E1C80D167ACBF57E527B /* Pods_bobaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				1306B784222BA40700CB5579 /* bobaTests */,
 				1306B78F222BA40700CB5579 /* bobaUITests */,
 				1306B76E222BA40500CB5579 /* Products */,
+				A2B4AC96CA76AC0B86F75DDC /* Pods */,
+				F390A04EB42C72B2614697E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +118,8 @@
 		1306B76F222BA40500CB5579 /* boba */ = {
 			isa = PBXGroup;
 			children = (
+				267A29C4222BBA5700E0A21D /* Model */,
+				267A29C1222BB88500E0A21D /* API */,
 				1306B770222BA40500CB5579 /* AppDelegate.swift */,
 				1306B772222BA40500CB5579 /* ViewController.swift */,
 				1306B774222BA40500CB5579 /* Main.storyboard */,
@@ -125,6 +148,45 @@
 			path = bobaUITests;
 			sourceTree = "<group>";
 		};
+		267A29C1222BB88500E0A21D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				267A29C2222BBA0600E0A21D /* YelpClientHelper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		267A29C4222BBA5700E0A21D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				267A29C5222BBA9300E0A21D /* Search.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2B4AC96CA76AC0B86F75DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8C8DD323E0B047BAD5E08 /* Pods-boba.debug.xcconfig */,
+				4DDB7E2E286871B1DD4C8963 /* Pods-boba.release.xcconfig */,
+				F45078ABE7D80D25F4311101 /* Pods-bobaTests.debug.xcconfig */,
+				5DFEAE1620D46FDEF607EE63 /* Pods-bobaTests.release.xcconfig */,
+				7CF83AAF93C8C88DBFF137A3 /* Pods-bobaUITests.debug.xcconfig */,
+				AC113A57B8DA4CC86A2A5C66 /* Pods-bobaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F390A04EB42C72B2614697E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4006AC00386A482177F27675 /* Pods_boba.framework */,
+				922F03EC151983B14EA73D70 /* Pods_bobaTests.framework */,
+				1A39EB7D04AD40A41CC5FC00 /* Pods_bobaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1306B795222BA40700CB5579 /* Build configuration list for PBXNativeTarget "boba" */;
 			buildPhases = (
+				EAF47F281CE5F2C32106FEAE /* [CP] Check Pods Manifest.lock */,
 				1306B769222BA40500CB5579 /* Sources */,
 				1306B76A222BA40500CB5579 /* Frameworks */,
 				1306B76B222BA40500CB5579 /* Resources */,
+				5AC67A237275F436ADD3085B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1306B798222BA40700CB5579 /* Build configuration list for PBXNativeTarget "bobaTests" */;
 			buildPhases = (
+				2CB130DCAEA74B845FB17606 /* [CP] Check Pods Manifest.lock */,
 				1306B77D222BA40700CB5579 /* Sources */,
 				1306B77E222BA40700CB5579 /* Frameworks */,
 				1306B77F222BA40700CB5579 /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1306B79B222BA40700CB5579 /* Build configuration list for PBXNativeTarget "bobaUITests" */;
 			buildPhases = (
+				241B9FB988C4513222DCF8B8 /* [CP] Check Pods Manifest.lock */,
 				1306B788222BA40700CB5579 /* Sources */,
 				1306B789222BA40700CB5579 /* Frameworks */,
 				1306B78A222BA40700CB5579 /* Resources */,
@@ -251,11 +317,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		241B9FB988C4513222DCF8B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bobaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB130DCAEA74B845FB17606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bobaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC67A237275F436ADD3085B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boba/Pods-boba-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BDBOAuth1Manager/BDBOAuth1Manager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDBOAuth1Manager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boba/Pods-boba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF47F281CE5F2C32106FEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-boba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1306B769222BA40500CB5579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267A29C3222BBA0600E0A21D /* YelpClientHelper.swift in Sources */,
+				267A29C6222BBA9300E0A21D /* Search.swift in Sources */,
 				1306B773222BA40500CB5579 /* ViewController.swift in Sources */,
 				1306B771222BA40500CB5579 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +591,7 @@
 		};
 		1306B796222BA40700CB5579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D8C8DD323E0B047BAD5E08 /* Pods-boba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +609,7 @@
 		};
 		1306B797222BA40700CB5579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDB7E2E286871B1DD4C8963 /* Pods-boba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +627,7 @@
 		};
 		1306B799222BA40700CB5579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45078ABE7D80D25F4311101 /* Pods-bobaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +648,7 @@
 		};
 		1306B79A222BA40700CB5579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFEAE1620D46FDEF607EE63 /* Pods-bobaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +669,7 @@
 		};
 		1306B79C222BA40700CB5579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF83AAF93C8C88DBFF137A3 /* Pods-bobaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +689,7 @@
 		};
 		1306B79D222BA40700CB5579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC113A57B8DA4CC86A2A5C66 /* Pods-bobaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
