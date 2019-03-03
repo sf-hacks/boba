@@ -41,5 +41,23 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>SCSDKScopes</key>
+	<array>
+		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+	</array>
+	<key>SCSDKRedirectUrl</key>
+	<string>snapAnimal://snap-kit/oauth2</string>
+	<key>CFBundleURLSchemes</key>
+	<string>snapAnimal</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>itms-apps</string>
+		<string>bitmoji-sdk</string>
+		<string>snapchat</string>
+	</array>
+	<key>SCSDKClientId</key>
+	<string>8bc14f55-11ed-47e5-9e41-e20f32c3cea5</string>
 </dict>
 </plist>
