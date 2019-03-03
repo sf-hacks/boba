@@ -18,7 +18,11 @@ class ViewController: UIViewController {
     var isUpdatingLocation = false
     var lastLocationError: Error?
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
     
     @IBAction func findLocation() {
         // get user permission to use location services
@@ -59,6 +63,8 @@ class ViewController: UIViewController {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
             isUpdatingLocation = true
+            //self.performSegue(withIdentifier: "locationToHome", sender: self)
+
         }
     }
     
@@ -77,10 +83,7 @@ class ViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
-    //    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view, typically from a nib.
-//    }
+    
 }
 
 extension ViewController : CLLocationManagerDelegate {
@@ -102,6 +105,11 @@ extension ViewController : CLLocationManagerDelegate {
         stopLocationManager()
         update()
     }
+    
+//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+//        self.performSegue(withIdentifier: "locationToHome", sender: self)
+//
+//    }
     
 }
 

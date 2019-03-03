@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/stephaniesantana/Documents/SF_Hacks19/boba/boba/View/HomeCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:boba.xcodeproj">
    </FileRef>
    <FileRef

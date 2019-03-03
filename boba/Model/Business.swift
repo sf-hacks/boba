@@ -1,5 +1,5 @@
 //
-//  Search.swift
+//  Business.swift
 //  Yelp
 //
 //
