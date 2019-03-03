@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var findLocationButton: UIButton!
     
     let locationManager = CLLocationManager()
@@ -20,10 +20,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         
     }
     
+   
     @IBAction func findLocation() {
         // get user permission to use location services
         let authorizationStatus = CLLocationManager.authorizationStatus()
@@ -47,6 +49,7 @@ class ViewController: UIViewController {
             lastLocationError = nil
             startLocationManager()
         }
+        // self.performSegue(withIdentifier: "locationToHome", sender: self)
     }
     
     func update() {
@@ -63,8 +66,7 @@ class ViewController: UIViewController {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
             isUpdatingLocation = true
-            //self.performSegue(withIdentifier: "locationToHome", sender: self)
-
+            
         }
     }
     
@@ -106,10 +108,6 @@ extension ViewController : CLLocationManagerDelegate {
         update()
     }
     
-//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
-//        self.performSegue(withIdentifier: "locationToHome", sender: self)
-//
-//    }
+    
     
 }
-

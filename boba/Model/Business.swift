@@ -2,6 +2,8 @@
 //  Business.swift
 //  Yelp
 //
+//  Created by Timothy Lee on 4/23/15.
+//  Copyright (c) 2015 Timothy Lee. All rights reserved.
 //
 
 import UIKit
@@ -64,34 +66,34 @@ class Business: NSObject {
         if rating != nil {
             switch rating {
             case 1:
-                self.ratingImage = UIImage(named: "stars_1")
+                self.ratingImage = UIImage(named: "regular_1")
                 break
             case 1.5:
-                self.ratingImage = UIImage(named: "stars_1half")
+                self.ratingImage = UIImage(named: "regular_1half")
                 break
             case 2:
-                self.ratingImage = UIImage(named: "stars_2")
+                self.ratingImage = UIImage(named: "regular_2")
                 break
             case 2.5:
-                self.ratingImage = UIImage(named: "stars_2half")
+                self.ratingImage = UIImage(named: "regular_2half")
                 break
             case 3:
-                self.ratingImage = UIImage(named: "stars_3")
+                self.ratingImage = UIImage(named: "regular_3")
                 break
             case 3.5:
-                self.ratingImage = UIImage(named: "stars_3half")
+                self.ratingImage = UIImage(named: "regular_3half")
                 break
             case 4:
-                self.ratingImage = UIImage(named: "stars_4")
+                self.ratingImage = UIImage(named: "regular_4")
                 break
             case 4.5:
-                self.ratingImage = UIImage(named: "stars_4half")
+                self.ratingImage = UIImage(named: "regular_4half")
                 break
             case 5:
-                self.ratingImage = UIImage(named: "stars_5")
+                self.ratingImage = UIImage(named: "regular_5")
                 break
             default:
-                self.ratingImage = UIImage(named: "stars_0")
+                self.ratingImage = UIImage(named: "regular_0")
                 break
             }
         } else {

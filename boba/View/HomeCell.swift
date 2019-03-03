@@ -16,6 +16,19 @@ class HomeCell: UITableViewCell {
     @IBOutlet weak var ratings: UIImageView!
     @IBOutlet weak var distanceFrom: UILabel!
     
+    
+    var business: Business! {
+        didSet {
+           thumbnail.setImageWith(business.imageURL!)
+           nameOfPlace.text = business.name
+           location.text = business.address
+           distanceFrom.text = business.distance
+           //ratings.setImageWith(business.imageURL!, placeholderImage: business.ratingImage)
+
+
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

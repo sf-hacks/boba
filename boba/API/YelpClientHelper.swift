@@ -72,4 +72,6 @@ class YelpClient: AFHTTPRequestOperationManager {
                             completion(nil, error)
         })!
     }
+    
+    
 }
