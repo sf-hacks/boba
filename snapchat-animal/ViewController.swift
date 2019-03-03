@@ -23,12 +23,12 @@ class ViewController: UIViewController {
             }
             
             if success {
-               // self.fetchSnapUserInfo() //example code
+               self.fetchSnapUserInfo() //example code
             }
         })
     }
     
-    /*private func fetchSnapUserInfo(){
+    private func fetchSnapUserInfo(){
         let graphQLQuery = "{me{displayName, bitmoji{avatar}}}"
         SCSDKLoginClient
             .fetchUserData(
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             }) { (error, isUserLoggedOut) in
                 print(error?.localizedDescription ?? "")
         }
-    } */
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
