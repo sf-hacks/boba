@@ -103,7 +103,10 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of Place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lk1-Kr-K5U">
-                                                    <rect key="frame" x="15" y="191" width="345" height="40"/>
+                                                    <rect key="frame" x="15" y="191" width="250" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="250" id="HX2-Fb-1tJ"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                                     <color key="textColor" red="0.81872406354982086" green="0.56634083585772932" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -114,31 +117,47 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="regular_3" translatesAutoresizingMaskIntoConstraints="NO" id="vEa-Pn-zfy">
-                                                    <rect key="frame" x="15" y="265" width="102" height="47"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhR-ub-Onr">
-                                                    <rect key="frame" x="301.5" y="283" width="58.5" height="29"/>
+                                                    <rect key="frame" x="301.5" y="282" width="58.5" height="29"/>
                                                     <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
                                                     <color key="textColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxj-JL-2Ee">
+                                                    <rect key="frame" x="15" y="253" width="135" height="29"/>
+                                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sd1-eI-XOP">
+                                                    <rect key="frame" x="15" y="282" width="63" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Ogy-To-cdV"/>
+                                                        <constraint firstAttribute="width" constant="63" id="gFJ-bA-IYz"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                                    <color key="textColor" red="0.01502955220990267" green="0.99912029499999999" blue="0.25640164520535136" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="lk1-Kr-K5U" firstAttribute="trailing" secondItem="6Po-HQ-Ta2" secondAttribute="trailingMargin" id="BsX-u6-NXn"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="NhR-ub-Onr" secondAttribute="bottom" constant="9" id="Cmf-4Z-uwb"/>
-                                                <constraint firstItem="vEa-Pn-zfy" firstAttribute="top" secondItem="bzg-Qq-3hT" secondAttribute="bottom" constant="8" id="Cyo-Jv-tWb"/>
+                                                <constraint firstItem="NhR-ub-Onr" firstAttribute="leading" secondItem="sd1-eI-XOP" secondAttribute="trailing" constant="223.5" id="4yD-ed-PoS"/>
+                                                <constraint firstItem="Dxj-JL-2Ee" firstAttribute="top" secondItem="lk1-Kr-K5U" secondAttribute="bottom" constant="22" id="AP6-2a-fW7"/>
                                                 <constraint firstItem="lk1-Kr-K5U" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="Eyl-UQ-rDE"/>
                                                 <constraint firstItem="gNq-RU-XAf" firstAttribute="top" secondItem="6Po-HQ-Ta2" secondAttribute="topMargin" id="HHU-uu-Af8"/>
-                                                <constraint firstItem="vEa-Pn-zfy" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="I0z-Zi-ngH"/>
                                                 <constraint firstItem="bzg-Qq-3hT" firstAttribute="top" secondItem="gNq-RU-XAf" secondAttribute="bottom" constant="45" id="Oi3-RU-FS2"/>
+                                                <constraint firstItem="sd1-eI-XOP" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="SGd-Yw-uAc"/>
+                                                <constraint firstItem="sd1-eI-XOP" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="XKS-va-HSS"/>
                                                 <constraint firstItem="gNq-RU-XAf" firstAttribute="trailing" secondItem="6Po-HQ-Ta2" secondAttribute="trailingMargin" id="ba5-H0-Dc3"/>
-                                                <constraint firstItem="NhR-ub-Onr" firstAttribute="leading" secondItem="vEa-Pn-zfy" secondAttribute="trailing" constant="184.5" id="bg8-O6-Th9"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Dxj-JL-2Ee" secondAttribute="trailing" constant="210" id="czU-qc-Kpa"/>
+                                                <constraint firstItem="Dxj-JL-2Ee" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="her-9K-d5h"/>
+                                                <constraint firstItem="sd1-eI-XOP" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="i8c-QH-LBz"/>
                                                 <constraint firstItem="NhR-ub-Onr" firstAttribute="trailing" secondItem="6Po-HQ-Ta2" secondAttribute="trailingMargin" id="jzb-pH-1Ey"/>
                                                 <constraint firstItem="lk1-Kr-K5U" firstAttribute="top" secondItem="gNq-RU-XAf" secondAttribute="bottom" constant="8" id="l6K-IF-iSs"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="vEa-Pn-zfy" secondAttribute="bottom" constant="9" id="m9e-Od-EVM"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NhR-ub-Onr" secondAttribute="bottom" constant="10" id="lch-AE-mVg"/>
+                                                <constraint firstItem="NhR-ub-Onr" firstAttribute="top" secondItem="bzg-Qq-3hT" secondAttribute="bottom" constant="25" id="ovX-ca-x38"/>
                                                 <constraint firstItem="bzg-Qq-3hT" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="qLJ-1N-Iba"/>
-                                                <constraint firstItem="NhR-ub-Onr" firstAttribute="top" secondItem="bzg-Qq-3hT" secondAttribute="bottom" constant="26" id="stC-Qc-dwS"/>
+                                                <constraint firstItem="sd1-eI-XOP" firstAttribute="top" secondItem="Dxj-JL-2Ee" secondAttribute="bottom" id="qgS-RR-pwu"/>
                                                 <constraint firstItem="gNq-RU-XAf" firstAttribute="leading" secondItem="6Po-HQ-Ta2" secondAttribute="leadingMargin" id="w31-m1-CDB"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bzg-Qq-3hT" secondAttribute="trailing" constant="14" id="wRd-yp-h20"/>
                                             </constraints>
@@ -147,7 +166,8 @@
                                             <outlet property="distanceFrom" destination="NhR-ub-Onr" id="aMO-mJ-ha9"/>
                                             <outlet property="location" destination="bzg-Qq-3hT" id="H6W-3d-Daj"/>
                                             <outlet property="nameOfPlace" destination="lk1-Kr-K5U" id="Mfw-uc-Ytr"/>
-                                            <outlet property="ratings" destination="vEa-Pn-zfy" id="VsM-rl-ZhS"/>
+                                            <outlet property="phoneNumber" destination="Dxj-JL-2Ee" id="DWq-Ww-6eN"/>
+                                            <outlet property="priceRange" destination="sd1-eI-XOP" id="GMc-4N-ajI"/>
                                             <outlet property="thumbnail" destination="gNq-RU-XAf" id="ISF-wk-qyj"/>
                                         </connections>
                                     </tableViewCell>
@@ -197,6 +217,5 @@
     </scenes>
     <resources>
         <image name="boba-logo" width="476" height="476"/>
-        <image name="regular_3" width="102" height="18"/>
     </resources>
 </document>

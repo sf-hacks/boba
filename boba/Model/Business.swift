@@ -16,9 +16,13 @@ class Business: NSObject {
     let distance: String?
     let ratingImage: UIImage?
     let reviewCount: NSNumber?
+    let number: String?
+    let price: String?
     
     init(dictionary: NSDictionary) {
         name = dictionary["name"] as? String
+        number = dictionary["display_phone"] as? String
+        price = dictionary["price"] as? String
         
         let imageURLString = dictionary["image_url"] as? String
         if imageURLString != nil {
@@ -102,6 +106,7 @@ class Business: NSObject {
         
         reviewCount = dictionary["review_count"] as? NSNumber
     }
+
     
     class func businesses(array: [NSDictionary]) -> [Business] {
         var businesses = [Business]()
