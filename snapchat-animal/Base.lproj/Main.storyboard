@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,24 +15,87 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="snapchat_animal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM6-Zr-qwp">
-                                <rect key="frame" x="168" y="245" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SnapAnimalLogo" translatesAutoresizingMaskIntoConstraints="NO" id="LOk-qS-x4X">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="SRC-9M-Toh"/>
+                                    <constraint firstAttribute="width" constant="240" id="iWZ-CH-80Q"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM6-Zr-qwp">
+                                <rect key="frame" x="138" y="592" width="138" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="exK-Yf-sxI"/>
+                                    <constraint firstAttribute="height" constant="44" id="tVW-GU-ehs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Kz-fY-grO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RM6-Zr-qwp" secondAttribute="bottom" constant="226" id="AUy-we-VmE"/>
+                            <constraint firstItem="LOk-qS-x4X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HqO-Qg-MmU"/>
+                            <constraint firstItem="LOk-qS-x4X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VRk-vS-6va"/>
+                            <constraint firstItem="RM6-Zr-qwp" firstAttribute="top" secondItem="LOk-qS-x4X" secondAttribute="bottom" constant="24" id="dKf-Qm-RAg"/>
+                            <constraint firstItem="RM6-Zr-qwp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="hNq-DG-FFn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RM6-Zr-qwp" secondAttribute="trailing" constant="138" id="w2t-eP-UPG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="GFZ-Pi-hbZ" kind="presentation" id="IJs-xD-z9Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="238" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="udQ-6C-Vv9">
+            <objects>
+                <viewController id="h1w-CE-IZY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JZu-Ih-bbR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3ya-qg-x9j"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="i82-OS-Fbo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGh-ld-N8z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2044.9275362318842" y="132.58928571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fFd-6f-dXO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GFZ-Pi-hbZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R6K-W3-SxR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h1w-CE-IZY" kind="relationship" relationship="rootViewController" id="wgH-6C-edH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6a-qt-HYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134.7826086956522" y="132.58928571428572"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SnapAnimalLogo" width="500" height="476"/>
+    </resources>
 </document>
